@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_block_banner_split_links",
+  "info": {
+    "name": "banner_split_links",
+    "icon": "boxes"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "redirect": {
+      "type": "component",
+      "repeatable": true,
+      "component": "v2-common.link"
+    },
+    "displayPeriod": {
+      "type": "component",
+      "repeatable": false,
+      "component": "v2-common.period"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "v2-common.content"
+    },
+    "style": {
+      "type": "component",
+      "repeatable": true,
+      "component": "v2-common.style"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "v2-common.link-list"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_style_contents",
+  "info": {
+    "name": "style_content",
+    "icon": "border-style"
+  },
+  "attributes": {
+    "color": {
+      "type": "string",
+      "default": "#000000"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_images",
+  "info": {
+    "name": "image",
+    "icon": "image"
+  },
+  "attributes": {
+    "data": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "pattern": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_style_buttons",
+  "info": {
+    "name": "style_button",
+    "icon": "external-link-square-alt"
+  },
+  "attributes": {
+    "color": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  }
+}

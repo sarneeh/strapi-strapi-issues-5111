@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_link_lists",
+  "info": {
+    "name": "link-list",
+    "icon": "pencil-alt"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "data": {
+      "type": "component",
+      "component": "v2-common.link",
+      "repeatable": true
+    }
+  }
+}

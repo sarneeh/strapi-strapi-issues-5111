@@ -1,0 +1,47 @@
+{
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "page",
+    "description": ""
+  },
+  "options": {
+    "timestamps": ["createdAt", "updatedAt"]
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "enum": ["HOME_PAGE", "LANDING_PAGE", "LISTING_PAGE"],
+      "type": "enumeration",
+      "default": "HOME_PAGE"
+    },
+    "taxonomy": {
+      "enum": ["men", "women", "kids"],
+      "type": "enumeration",
+      "required": false
+    },
+    "locale": {
+      "enum": ["en", "ar"],
+      "type": "enumeration",
+      "default": "en"
+    },
+    "country": {
+      "enum": ["ae", "iq", "us", "sa", "bh", "om", "kw"],
+      "type": "enumeration",
+      "default": "ae"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "v2-block.banner",
+        "v2-block.banner-slider",
+        "v2-block.banner-split",
+        "v2-block.banner-split-links",
+        "v2-block.banner-horizontal",
+        "v2-block.image-link-list"
+      ]
+    }
+  }
+}

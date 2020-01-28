@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_block_image_link_lists",
+  "info": {
+    "name": "image_link_list",
+    "icon": "boxes"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "displayPeriod": {
+      "type": "component",
+      "repeatable": false,
+      "component": "v2-common.period"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "v2-common.link-image"
+    }
+  }
+}

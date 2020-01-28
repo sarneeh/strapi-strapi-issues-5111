@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_periods",
+  "info": {
+    "name": "period",
+    "icon": "calendar-alt"
+  },
+  "attributes": {
+    "from": {
+      "type": "datetime"
+    },
+    "to": {
+      "type": "datetime"
+    },
+    "permanent": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

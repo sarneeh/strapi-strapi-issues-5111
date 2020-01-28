@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_styles",
+  "info": {
+    "name": "style",
+    "icon": "file-image"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "component",
+      "component": "v2-common.style-content",
+      "repeatable": false
+    },
+    "background": {
+      "type": "component",
+      "component": "v2-common.style-background",
+      "repeatable": false
+    },
+    "button": {
+      "type": "component",
+      "component": "v2-common.style-button",
+      "repeatable": false
+    }
+  }
+}

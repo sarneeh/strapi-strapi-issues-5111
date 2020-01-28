@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_block_banner_horizontals",
+  "info": {
+    "name": "banner_horizontal",
+    "icon": "boxes"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "redirect": {
+      "type": "component",
+      "repeatable": false,
+      "component": "v2-common.link"
+    },
+    "displayPeriod": {
+      "type": "component",
+      "repeatable": false,
+      "component": "v2-common.period"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "v2-common.content"
+    },
+    "style": {
+      "type": "component",
+      "repeatable": false,
+      "component": "v2-common.style"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_link_images",
+  "info": {
+    "name": "link_image",
+    "icon": "external-link-alt"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "label": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "component": "v2-common.image",
+      "repeatable": false
+    }
+  }
+}

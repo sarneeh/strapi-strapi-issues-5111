@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "components_v2_common_contents",
+  "info": {
+    "name": "content",
+    "icon": "pencil-alt"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "text": {
+      "type": "richtext",
+      "default": null
+    },
+    "note": {
+      "type": "string",
+      "default": null
+    }
+  }
+}
